@@ -1,0 +1,87 @@
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: beige;
+  padding: 20px;
+  border-radius: 5px;
+  width: fit-content;
+}
+.nav {
+  margin-top: 20px;
+  display: flex;
+  gap: 24px;
+  box-sizing: border-box;
+}
+#datetime-picker {
+  width: 272px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 8px 16px 8px 16px;
+  box-sizing: border-box;
+}
+#datetime-picker:hover {
+  border: 1px solid #000000;
+}
+#datetime-picker:focus {
+  border: 1px solid #4e75ff;
+  outline: transparent;
+}
+button {
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  border: none;
+}
+button:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+button:hover {
+  background: #6c8cff;
+}
+button:hover:disabled {
+  background: #cfcfcf;
+}
+
+.timer-input {
+  display: flex;
+  gap: 8px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+.timer {
+  display: flex;
+  gap: 24px;
+}
+.value {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+body .iziToast-capsule .iziToast-close {
+  background: url(../img/close.png) no-repeat 50% 50%;
+  opacity: 0.8;
+}
