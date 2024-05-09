@@ -31,7 +31,7 @@ const options = {
         messageColor: 'white',
         title: 'Error:',
         message: 'Please choose a date in the future',
-        iconUrl: '.src/img/error.svg',
+        iconUrl: './src/img/error.svg',
       });
     } else {
       start.disabled = false;
