@@ -24,14 +24,14 @@ const options = {
     userSelectedDate = selectedDates[0];
     if (Date.now() >= Date.parse(userSelectedDate)) {
       start.disabled = true;
-      iziToast.show({
+      iziToast.error({
         position: 'topRight',
         backgroundColor: 'red',
         titleColor: 'white',
         messageColor: 'white',
         title: 'Error:',
         message: 'Please choose a date in the future',
-        iconUrl: './src/img/error.svg',
+        // iconUrl: './img/error.svg', //не вдалося правильно вказати шлях до зображення, що за макетом. Локально працює.
       });
     } else {
       start.disabled = false;
